@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>守卫地盘游戏</title>
+  <style>
+    /* 样式可以根据您的喜好进行调整 */
+    #game-container {
+      width: 400px;
+      height: 400px;
+      border: 1px solid black;
+      position: relative;
+    }
+    #guard {
+      width: 50px;
+      height: 50px;
+      background-color: blue;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .enemy {
+      width: 30px;
+      height: 30px;
+      background-color: red;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="game-container">
+    <div id="guard"></div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
